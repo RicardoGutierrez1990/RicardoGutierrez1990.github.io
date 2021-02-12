@@ -1,0 +1,101 @@
+.container{
+	margin: 50px;
+	margin-top: 0px;
+}
+
+
+.head-img {
+	display: flex;
+    justify-content: center;
+    margin-top: 7px;
+}
+
+#headshot {
+	border-radius: 25%;
+	width: 320px;
+	height: 400px;
+}
+
+#about{
+	margin-top: -40px;
+	text-align: center;
+	padding: 10px;
+	padding-top: 50px;
+    background-color: #F3AFB7;
+	margin-bottom: 20px;
+	box-shadow: 5px 5px #C9C9C9;
+	border-radius: 7px;
+}
+
+.skills {
+	height: 200px;
+	background-color:#F5E4E6;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	box-shadow: 5px 5px #C9C9C9;
+	border-radius: 7px;
+	padding: 7px;
+}
+
+.projects-container{
+	padding-top: 10px;
+	background-color: #F3AFB7;
+	box-shadow: 5px 5px #C9C9C9;
+    border-radius: 7px;
+}
+
+.row{
+	margin-top: 10px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.inlined a + a {
+	padding-left: 10px;
+}
+
+.inlined {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+
+}
+#contact {
+	justify-content: center;
+	padding: 10px;
+}
+
+.all_skills {
+	margin:5px;
+	font-size: 18px;
+}
+
+.block {
+	display: flex;
+	flex-direction: column;
+	margin: 25px;
+}
+
+.column {
+	margin : 20px;
+	width: 25%;
+}
+
+.column:hover {
+	width: 27%;
+	transition: 0.3s;
+}
+
+
+.content {
+	padding : 10px;
+}
+
+#footer{
+	display: flex;
+	justify-content: center;
+	margin : 20px;
+}
+
