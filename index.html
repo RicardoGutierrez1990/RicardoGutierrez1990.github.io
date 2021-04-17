@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<meta charset=utf-8>
-		<meta name=viewport content="width=device-width, initial-scale=1">
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Professional Portfolio - Ricardo Gutierrez</title>
         <style>
             body{
@@ -22,32 +22,33 @@
 	<body>
 
 		<div class="container">
-			<header>
-            <nav class="nav-bar" id="nav-bar">
-                <a href="#about">About Me ||</a>
-                <a href="#skills">Skills ||</a>
-                <a href="#projects-container">Projects</a>
-			</nav>
-			</header>
+				<header>
+            		<nav class="nav-bar" id="nav-bar">
+                		<a href="#about">About Me ||</a>
+                		<a href="#skills">Skills ||</a>
+						<a href="#projects-container">Projects ||</a>
+						<a href="resume.html" target="_blank" rel="noreferrer noopener">Resume ||</a>
+					</nav>
+				</header>
 
 
-			<div class="head-img">
-				<img id="headshot" src="Me_solo.jpg">
-			</div>
+				<div class="head-img">
+					<img id="headshot" src="Me_solo.jpg">
+				</div>
 
-			<section id="about">
-				<h2>Ricardo Gutierrez</h2>
-				<p>I am originally from Venezuela, moved to the US in 2010 to get a Bachelor's degree in business administration at Miami Dade College in Miami FL.
+				<section id="about">
+					<h2 id="name">Ricardo Gutierrez</h2>
+					<p >I am originally from Venezuela, moved to the US in 2010 to get a Bachelor's degree in business administration at Miami Dade College in Miami FL.
 					I was blessed with the opportunity to live in different states around the country, and now I am settled in Columbus Ohio.
 					I decided to become a software developer so I can start a career in the tech industry and I am looking for new opportunities for self growth and put my skills to use to make a positive impact in the world. </p>
 
-				<div class="inlined" id="contact">
-					<a href="https://www.linkedin.com/in/ricardo-gutierrez-18a68841/" target="_blank" rel="noreferrer noopener"><i class="fa fa-linkedin"></i></a>
-                    <a href="https://github.com/RicardoGutierrez1990" target="_blank" rel="noreferrer noopener"><i class="fa fa-github"></i></a>
-                    <a href="mailto:ricksoftwaredeveloper@gmail.com" target="_blank" rel="noreferrer noopener"><i class="fa fa-envelope"></i></a>
-				</div>
+					<div class="inlined" id="contact">
+						<a href="https://www.linkedin.com/in/ricardo-gutierrez-18a68841/" target="_blank" rel="noreferrer noopener"><i class="fa fa-linkedin"></i></a>
+                    	<a href="https://github.com/RicardoGutierrez1990" target="_blank" rel="noreferrer noopener"><i class="fa fa-github"></i></a>
+                    	<a href="mailto:ricksoftwaredeveloper@gmail.com" target="_blank" rel="noreferrer noopener"><i class="fa fa-envelope"></i></a>
+					</div>
+				</section>
 
-			</section>
 			<div class="skills" id="skills">
 				<h2>Skills</h2>
 
@@ -58,8 +59,8 @@
 						</div>
 						<div class="all_skills">
 							HTML
-						</div class="all_skills">
-						<div>
+						</div> 
+						<div class="all_skills">
 							CSS
 						</div>
 					</div>
@@ -67,19 +68,43 @@
 					<div class="block">
 						<div class="all_skills">
 							JAVASCRIPT
-						</div >
+						</div>
+						<div class="all_skills">
+							RESTFUL API
+						</div>
+						<div class="all_skills">
+							MVC FRAMEWORK
+						</div>
+					</div>
+
+					<div class="block">
+						<div class="all_skills">
+							JAVASCRIPT
+						</div>
 						<div class="all_skills">
 							INTELLIJ
-						</div class="all_skills">
-						<div>
+						</div>
+						<div class="all_skills">
 							VSCODE
 						</div>
 					</div>
 
 					<div class="block">
 						<div class="all_skills">
-							COMMUNICATION
+							SOURCE CONTROL/GIT
+						</div >
+						<div class="all_skills">
+							JPA
 						</div>
+						<div class="all_skills">
+							TDD
+						</div>
+					</div>
+
+					<div class="block">
+						<p class="all_skills" id="test">
+							ENGLISH/SPANISH BILINGUAL
+						</p>
 						<div class="all_skills">
 							TIME MANAGEMENT
 						</div>
@@ -87,70 +112,129 @@
 							PROBLEM SOLVING
 						</div>
 					</div>
-
-					<div class="block">
-						<div class="all_skills">
-							ACTIVE LISTENING
-						</div>
-						<div class="all_skills">
-							CUSTOMER SERVICE
-						</div>
-						<div class="all_skills">
-							ENGLISH/SPANISH BILINGUAL
-						</div>
-					</div>
-
 				</div>
 			</div>
 
 
 			<div class="projects-container" id="projects-container">
-				<h2>PROJECTS</h2>
-				<div class="row">
+				<div class="width">
+					<h2>PROJECTS</h2>
+					<div class="row">
 
-                    <div class="column">
+					<div class="column">
+						<div class="content">
+							<h3>Albums-Songs</h3>
+							<figure>
+								<a href="https://github.com/2021-Spring-Cohort/module-5-album-site-run-mvc"
+                                    target="_blank">
+							<img class = "img__project" src="record-collection.png" alt=""></a>
+							</figure>
+							<p class="project__text"> Designed and developed a single-page application that allows the user to include
+								and delete albums and songs into the website, as well as to leave comments and ratings.
+							</p>
+							<br>
+								<h4>Skills Used:  HTML, CSS, Java, JavaScript, Restful API.</h4>
+							
+						</div>
+					</div>
+
+
+					<div class="column">
+						<div class="content">
+							<h3>Donut Maker</h3>
+							<figure>
+								<a href="https://thankful-grass-0cf515b0f.azurestaticapps.net/Ricardo/index.html"
+                                    target="_blank">
+							<img class = "img__project" src="donutmakerpic.PNG" alt=""  ></a>
+							</figure>
+							<p class="project__text"> Inspired by the classic game Cookie Clicker, developed a fun single-page application game that allows you to buy donuts by clicking and progressing through the game by buying upgrades.</p>
+								<br>
+								
+									<h4> Skills Used: HTML, CSS, JavaScript.</h4>
+								
+						</div>
+					</div>
+
+
+					<div class="column">
+						<div class="content">
+							<h3>Review Site</h3>
+							<figure>
+								<a href="https://review-site-us.herokuapp.com/"
+                                    target="_blank">
+							<img class = "img__project" src="reviewsite.PNG" alt="" ></a>
+						</figure>
+							<p class="project__text"> Worked on a Spring Web application that allows users to review different tourist attractions of the United States and view them.</p>
+								<br>
+									<h4>Skills used: Java, HTML, TDD, Spring Framework, Databases.</h4>
+						</div>
+					</div>
+				
+					
+					<div class="column">
 						<div class="content">
 							<h3>Virtual Pet Game</h3>
-							<img src="Virtual Pet Capture.jpg" alt="" width="100%" height="100%">
-							<p> A fun console application that allows users to create virtual pets.
+							<figure>
+								<a href="https://github.com/RicardoGutierrez1990/virtual-pets-Java-Coders"
+                                    target="_blank">
+							<img class = "img__project" src="Virtual Pet Capture.jpg" alt=""></a>
+							</figure>
+							<p class="project__text"> A fun console application that allows users to create virtual pets.
                                 The user can put them in a virtual pet shelter and interact with the pets.
-                                The user can also pick between playing with an organic pet or a robotic pet.</p>
-
+                                </p>
+								<br>
+							
+									<h4>Skills Used: Java, TDD, Intellij, Source Control/Git</h4>
+						
 						</div>
 					</div>
 
 					<div class="column">
 						<div class="content">
 							<h3>FizzBuzzQix</h3>
-							<img src="FizzBuzzQix.PNG" alt="" width="100%" height="100%">
-							<p>A fun and challenging exercise to put in practice Test Driven Development.
-                                Counting with a catch. For all multiples of three, the player must say "Fizz", for all multiples of five, the player will say "Buzz" and for all multiples of seven, the player will say "Qix.
-                                If a number is both a multiple of three and five the player says "FizzBuzz".
-                                If a number is both a multiple of three and seven the player says "FizzQix".
-                                If a number is both a multiple of five and seven the player says "BuzzQix".
-                                If a number is a multiple of three, five and seven the player says "FizzBuzzQix". </p>
+							<figure>
+								<a href="https://github.com/RicardoGutierrez1990?tab=repositories"
+                                    target="_blank">
+							<img class = "img__project" src="FizzBuzzQix.PNG" alt="" ></a>
+							</figure>
+							<p class="project__text">A fun and challenging exercise to put in practice Test Driven Development.
+								Counting with a catch. </p>
+								<br>
+							
+									<h4>Skills Used: Java, TDD, Intellij, Source Control/Git</h4>
+					
 						</div>
 					</div>
 
 					<div class="column">
 						<div class="content">
 							<h3>Guessing Game</h3>
-							<img src="Guessing Game.PNG" alt="" width="100%" height="100%">
-							<p> Console application that challenges the user to guess a random number.
+							<figure>
+								<a href="https://github.com/RicardoGutierrez1990?tab=repositories"
+                                    target="_blank">
+							<img class = "img__project" src="Guessing Game.PNG" alt="" ></a>
+							</figure>
+							<p class="project__text"> Console application that challenges the user to guess a random number.
                                 If the player inputs the right number, a congratulatory message appears, otherwise, the player has the option to keep guessing.</p>
-
+								<br>
+							
+									<h4>Skills Used: Java, TDD, Intellij, Source Control/Git</h4>
+							
 						</div>
 					</div>
 
-						</div>
-					</div>
 
+					
 				</div>
-			</div>
 
-        </div>
-        <footer id= "footer"> Peace and Love | 2021 © ||<a href="#nav-bar" class="back-to-top" id="back-to-top"><strong>Back to top</strong></a>
-        </footer>
+				
+			</div>
+		</div>
+		
+		<footer id= "footer"> Peace and Love | 2021 © ||<a href="#nav-bar" class="back-to-top" id="back-to-top"><strong>Back to top</strong></a>
+		</footer>
+    </div>
+
 
 
 	</body>
